@@ -32,6 +32,10 @@ body {
   background: #f7f7f7;
 }
 
+section {
+  padding: 2rem 9%;
+}
+
 header {
   top: 0;
   left: 0;
