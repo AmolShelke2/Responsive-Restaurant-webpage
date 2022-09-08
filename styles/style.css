@@ -276,6 +276,31 @@ header .navbar a:hover {
   padding: 1rem 0.1rem;
 }
 
+.steps {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.steps .box {
+  flex: 1 1 25rem;
+  text-align: center;
+  padding: 1rem;
+}
+
+.steps .box img {
+  border-radius: 50%;
+  box-shadow: 0.5rem 2rem rgba(0, 0, 0, 0.1);
+  border: 1rem solid #fff;
+}
+
+.steps .box h3 {
+  font-size: 3rem;
+  color: #333;
+  padding: 1rem;
+}
+
 /* media quiries */
 @media (max-width: 991px) {
   html {
