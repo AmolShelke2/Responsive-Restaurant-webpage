@@ -143,6 +143,17 @@ header .navbar a:hover {
   padding-top: 6rem;
 }
 
+.home .content h3 {
+  font-size: 5rem;
+  color: #333;
+}
+
+.home .content p {
+  font-size: 1.7rem;
+  color: #666;
+  padding: 1rem 0;
+}
+
 .home .image {
   flex: 1 1 40rem;
 }
@@ -151,6 +162,17 @@ header .navbar a:hover {
   width: 100%;
   padding: 1rem;
   animation: float 3s linear infinite;
+}
+
+@keyframes float {
+  0%,
+  100% {
+    transform: translateY(0rem);
+  }
+
+  50% {
+    transform: translateY(3rem);
+  }
 }
 
 .speciality .box-container {
@@ -205,28 +227,6 @@ header .navbar a:hover {
 
 .speciality .box-container .box:hover .content {
   transform: translateY(100%);
-}
-
-@keyframes float {
-  0%,
-  100% {
-    transform: translateY(0rem);
-  }
-
-  50% {
-    transform: translateY(3rem);
-  }
-}
-
-.home .content h3 {
-  font-size: 5rem;
-  color: #333;
-}
-
-.home .content p {
-  font-size: 1.7rem;
-  color: #666;
-  padding: 1rem 0;
 }
 
 /* media quiries */
