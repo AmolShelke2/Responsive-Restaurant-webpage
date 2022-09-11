@@ -491,6 +491,23 @@ header .navbar a:hover {
   top: calc(100% - 12rem);
 }
 
+.loader-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10000;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.loader-container.fade-out {
+  top: -120%;
+}
+
 /* media quiries */
 @media (max-width: 991px) {
   html {
