@@ -475,6 +475,22 @@ header .navbar a:hover {
   color: var(--red);
 }
 
+#scroll-top {
+  position: fixed;
+  top: -120%;
+  right: 2rem;
+  padding: 0.5rem 1.5rem;
+  font-size: 4rem;
+  background: var(--red);
+  color: #fff;
+  border-radius: 0.5rem;
+  transition: 0.5s linear;
+}
+
+#scroll-top.active {
+  top: calc(100% - 12rem);
+}
+
 /* media quiries */
 @media (max-width: 991px) {
   html {
